@@ -101,3 +101,13 @@ footer * {
         width: calc((100% / 2) - (1rem / 2));
     }
 }
+/* Media Queries: for large size */
+@media screen and (min-width: 840px){
+    .flex-container article {
+        width: calc((100% / 4) - (3rem / 4));
+    }
+    .flex-container > article:nth-child(2),
+    .flex-container > article:nth-child(3) {
+        width: calc((100% / 4) - (3rem / 4));
+    }
+}
